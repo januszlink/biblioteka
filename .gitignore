@@ -1,5 +1,5 @@
-./idea/
-./idea/workspace.xml
+/.idea/
+/.idea/workspace.xml
 /.web-server-pid
 /app/config/parameters.yml
 /build/
@@ -17,4 +17,3 @@
 !var/SymfonyRequirements.php
 /vendor/
 /web/bundles/
-/_opis.txt
