@@ -45,14 +45,14 @@ class Books
     /**
      * @var \DateTime
      *
-     * @ORM\Column(name="year", type="datetime")
+     * @ORM\Column(name="year", type="datetime",  nullable=true)
      */
     private $year;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="type", type="string", length=255)
+     * @ORM\Column(name="type", type="string", length=255,  nullable=true )
      */
     private $type;
 

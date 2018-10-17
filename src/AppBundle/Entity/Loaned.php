@@ -39,7 +39,7 @@ class Loaned
     /**
      * @var int
      *
-     * @ORM\Column(name="status", type="integer")
+     * @ORM\Column(name="status", type="integer",  nullable=true)
      */
     private $status;
 
